@@ -1,9 +1,9 @@
 - name: CU Engineering
-  image-url: /assets/images/partners/engineering.png
+  image-url: assets/images/partners/engineering.png
   url: https://www.colorado.edu/engineering/
 - name: HackCU
-  image-url: /assets/images/partners/hackcu.png
+  image-url: assets/images/partners/hackcu.png
   url: https://hackcu.org
 - name: Leeds School of Business
-  image-url: /assets/images/partners/leeds.png
+  image-url: assets/images/partners/leeds.png
   url: https://www.colorado.edu/business/
