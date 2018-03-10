@@ -1,5 +1,5 @@
 - tier: Bronze
-  description: The base tier for any CU Blockchain sponsorship
+  description: 
   price: $500 USD
   commerce-link: https://commerce.coinbase.com/checkout/738163a1-5d71-4dfc-b890-10f0b525c97f
   perks:
@@ -7,3 +7,32 @@
     - Access to all participant emails
     - Distribute merch
     - Have your logo on our website and T-Shirts
+
+- tier: Silver
+  description: "All of the Bronze tier perks plus:"
+  price: $1500 USD
+  commerce-link: https://commerce.coinbase.com/checkout/828d6396-5277-476f-acd1-edbaf7071844
+  perks:
+    - Ability to send 2 mentors
+    - Booth at the event
+    - All opt-in participants resumes and linkedin profiles
+
+- tier: Gold
+  description: "All of the Silver tier perks plus:"
+  price: $2500 USD
+  commerce-link: https://commerce.coinbase.com/checkout/4a2b8367-0d82-43f8-9212-d4fe70c1ae23
+  perks:
+    - Two tables at the event
+    - Ability to sponsor a challenge using your platform
+    - Ability to host a workshop
+    - Remarks at opening ceremonies 
+
+- tier: Powered By
+  description: "All of the Gold tier perks plus:"
+  price: $5000 USD
+  commerce-link: https://commerce.coinbase.com/checkout/28c7678b-af0e-4256-8064-54e7811631b1
+  perks:
+    - 10 minutes at opening and closing ceremonies for remarks
+    - Two or more workshops on your platform
+    - Unlimited recruiters and the ability to interview hackers at the event
+    - All offical branding titled "powered by your company"
