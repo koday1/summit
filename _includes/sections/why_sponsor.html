@@ -1,0 +1,36 @@
+<section class="container">
+  <div class="why-sponsor">
+    <img src="assets/images/logo.png" alt="" class="img-responsive club-logo">
+    <h1>CU Blockchain Hackathon Sponsorship Guide</h1>
+    <hr>
+    <h2>About the Event</h2>
+    <div class="row">
+      <p class="col-md-offset-1 col-md-10">We are extremely excited to announce the very first CU Blockchain Hackathon coming to 
+        the University of Colorado at Boulder’s Idea Forge this April 14th and 15th! Seeing as the closest collegiate hackathon 
+        to the University of Colorado Boulder is 500 miles away, CU Blockchain aims to build off the steam generated from the 
+        HackCU hackathon in February. This concept was created by members of a quickly growing campus club to expedite the adoption 
+        rate of blockchain technology.  The club quickly grew to 100+ members with various guest pitches from some of the biggest 
+        projects in the space. Former members of the club have gone on to land major positions at some of the most innovative projects 
+        in the space.</p>
+      <p class="col-md-offset-1 col-md-10">Through the CU Blockchain hackathon we hope to offer a variety of internship opportunities 
+        to students along with education workshops for hackers of all ages. Modeled after the format of ETHDenver, we will be hosting 
+        a variety of highly demanded panels from respected companies in the blockchain ecosystem. Additionally, this hackathon provides 
+        a perfect opportunity for companies to recruit the youngest talent from the ground up. HackCU gave light to many talented developers 
+        who have gone on to contribute immensely to major companies such as Coinbase, Consensys, and the City of Zion.  We aim to foster 
+        innovation and creativity through a community of students who are motivated  to make a lasting difference in the world, by 
+        connecting them with other passionate hackers, brilliant mentors, and the best companies.</p>
+      <p class="col-md-offset-1 col-md-10">This February, more than 600 students arrived in Boulder for 24 hours of teamwork, creativity, 
+        and immense determination to produce marketable technology. This April, CU Blockchain will be hosting its first ever annual blockchain 
+        hackathon. This event aims to bring together over 300 of the best hackers  from across the country to the University of Colorado 
+        Boulder inspiring community. </p>
+    </div>
+    <h2>Why Sponsor?</h2>
+    <div class="row">
+      <ul class="col-md-offset-1">
+        {% for reason in site.data.sponsorship-reasons %}
+          <li>{{reason}}</li>
+        {% endfor%}
+      </ul>
+    </div>
+  </div>
+</section>

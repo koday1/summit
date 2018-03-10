@@ -412,3 +412,57 @@ footer {
   }
 }
 
+
+// Sponsorship page
+.why-sponsor {
+  text-align: center;
+  padding: 20px;
+
+  p {
+    text-align: justify;
+  }
+
+  .club-logo {
+    max-width: 200px;
+    display: inline-block;
+  }
+
+  ul {
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  li {
+    list-style-type: disc;
+  }
+}
+
+.sponsorship-tiers {
+  text-align: left;
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  p,
+  h3, 
+  h4, 
+  h5, 
+  h6 {
+    text-align: left;
+  }
+  ul {
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  li {
+    list-style-type: disc;
+  }
+  .buy-with-crypto {
+    background: $accent-color;
+    display: inline-block;
+  }
+}

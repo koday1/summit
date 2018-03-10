@@ -1,0 +1,28 @@
+<section class="container">
+  <div class="sponsorship-tiers">
+    <hr>
+    <h2>Sponsorship Tiers</h2>
+    {% for tier in site.data.sponsorship-tiers %}
+      <div class="row">
+        <div class="col-md-offset-1">
+            <h3>{{tier.tier}}</h3>
+            <h4>Price: {{tier.price}}</h4>
+            <p>{{tier.description}}</p>
+            <h4>Perks:</h4>
+            <ul>
+              {% for perk in tier.perks%}
+                <li>{{perk}}</li>
+              {% endfor %}
+            </ul>
+
+            <div>
+              <a class="buy-with-crypto" href="{{tier.commerce-link}}"> <span>Purchase {{tier.tier}} Tier</span> </a>
+              <script src="https://commerce.coinbase.com/v1/checkout.js">
+              </script>
+            </div>
+        </div>
+      </div>
+      
+    {% endfor %}
+  </div>
+</section>
