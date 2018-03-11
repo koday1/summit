@@ -1,3 +1,13 @@
 sass:
     sass_dir: assets/_sass
     style: compressed
+
+title: "CU Blockchain Summit"
+tagline: "Workshops | Panels | Networking | 24-hour Hackathon"
+about: "The CU Blockchain Summit is the first annual student summit for Colorado students
+ interested in blockchain technology. The summit will feature workshops and panels with 
+ blockchain experts, networking with blockchain companies, and a 24-hour hackathon competition. 
+ It’s all happening April 14th and 15th at the Idea Forge on the CU Boulder campus. 
+ Registration is limited so register soon! "
+email: blockchain@colorado.edu
+register-url: "#"

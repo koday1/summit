@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 $footer-text: #666666;
-$main-color: rgb(34, 41, 44);
+$main-color: #22292c;
 $accent-color: #CFB87C;
 
 * {
@@ -51,7 +51,6 @@ hr {
 
 canvas {
   position: absolute;
-  background-color: $main-color;
   top: 0;
   left: 0;
   z-index: -1;
@@ -211,7 +210,6 @@ header {
 }
 
 #about {
-  @include box-shadow(inset 0px -3px 8px 0px rgba(0, 0, 0, 0.2));
   p {
     line-height: 1.7em;
   }
