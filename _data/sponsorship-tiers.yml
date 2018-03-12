@@ -13,9 +13,9 @@
   price: $1500 USD
   commerce-link: https://commerce.coinbase.com/checkout/828d6396-5277-476f-acd1-edbaf7071844
   perks:
-    - Ability to send 2 representatives
+    - Send 2 representatives
     - Booth at the event
-    - All opt-in participants resumes and linkedin profiles
+    - All opt-in participants resumes and Linkedin profiles
 
 - tier: Gold
   description: "All of the Silver tier perks plus"
@@ -24,8 +24,8 @@
   perks:
     - Unlimited representatives
     - Two tables at the event
-    - Ability to sponsor a challenge using your platform
-    - Ability to host a workshop
+    - Sponsor a challenge using your platform
+    - Host a workshop
     - Remarks at opening ceremonies 
 
 - tier: Powered By
