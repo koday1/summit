@@ -49,7 +49,7 @@
     <link rel="stylesheet" href="assets/lib/font-awesome.min.css">
 
     <!-- Our own CSS, yay! -->
-    <link rel="stylesheet" href="assets/css/style.css?_=1520890021">
+    <link rel="stylesheet" href="assets/css/style.css?_=1521003429">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
@@ -150,7 +150,7 @@
             
             
             <h3>How much does the CU Blockchain Summit cost?</h3>
-            <p>The CU Blockchain Summit is absolutely free to attend. We will also provide meals, snacks, and refreshments!</p>
+            <p>The CU Blockchain Summit is absolutely free to attend for students. Community members will have to pay a small admission fee. We will provide meals, snacks, and refreshments!</p>
 
             
             
@@ -215,7 +215,7 @@
             
             
             <h3>What if I am not a student?</h3>
-            <p>Right now we are priortizing students for entry. If you are a community member who is interested in giving a talk check out our <a href="#speakers">talk application</a>.</p>
+            <p>We want to see community members at the event too! If you’re in the Boulder/Denver area please register and check the option that you are from the broader blockchain community</p>
 
             
             
@@ -378,7 +378,8 @@
                 <h2>Have an idea for a talk?</h2>
                 <hr>
                 <p class="lead">Apply below to give a talk at the CU Blockchain summit. Community member talks only. For company related talks see our <a href="/sponsor">Sponsorship Options</a>.</p>
-                <div class="buttons">
+                <p>Coming soon!</p>
+                <!-- <div class="buttons">
                   <div class="svg-wrapper ">
                       <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
                           <rect class="shape" height="40" width="150"/>
@@ -387,7 +388,7 @@
                           </div>
                       </svg>
                   </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -504,10 +505,249 @@
             </div>
         </div>
         <div class="container">
-			<iframe
-				width="100%" height="450" frameborder="0" style="border:0"
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.292860856085!2d-105.26505884856475!3d40.00190547931446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bedb59f0b81ef%3A0xf7c916f7d7ed4285!2sCU+IdeaForge!5e0!3m2!1sen!2sus!4v1519935808266" allowfullscreen>
-			</iframe>
+          <div id="map"></div>
+          <script>
+            function initMap() {
+
+              var ideaforge = {lat: 40.00207, lng: -105.2632817}
+              // Styles a map in night mode.
+              var map = new google.maps.Map(document.getElementById('map'), {
+                center: ideaforge,
+                zoom: 14,
+                styles: [
+                  {
+                    "elementType": "geometry",
+                    "stylers": [
+                      {
+                        "color": "#212121"
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "labels.icon",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#757575"
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                      {
+                        "color": "#212121"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "administrative",
+                    "elementType": "geometry",
+                    "stylers": [
+                      {
+                        "color": "#757575"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "administrative.country",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#9e9e9e"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "administrative.land_parcel",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "administrative.locality",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#bdbdbd"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "poi",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#757575"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [
+                      {
+                        "color": "#181818"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "poi.park",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#616161"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "poi.park",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                      {
+                        "color": "#1b1b1b"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                      {
+                        "color": "#cfb87c"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#8a8a8a"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.arterial",
+                    "elementType": "geometry",
+                    "stylers": [
+                      {
+                        "color": "#373737"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.arterial",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                      {
+                        "color": "#cfb87c"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.highway",
+                    "elementType": "geometry",
+                    "stylers": [
+                      {
+                        "color": "#cfb87c"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.highway.controlled_access",
+                    "elementType": "geometry",
+                    "stylers": [
+                      {
+                        "color": "#4e4e4e"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.highway.controlled_access",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                      {
+                        "color": "#cfb87c"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.local",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                      {
+                        "color": "#cfb87c"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.local",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#616161"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "transit",
+                    "elementType": "labels",
+                    "stylers": [
+                      {
+                        "color": "#cfb87c"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "transit",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#757575"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [
+                      {
+                        "color": "#000000"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "water",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                      {
+                        "color": "#3d3d3d"
+                      }
+                    ]
+                  }
+                ]
+              });
+
+              var marker = new google.maps.Marker({
+                position: ideaforge,
+                map: map,
+                title: 'CU Blockchain Summit'
+              });
+            }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5p62D4HGwJtwuxvz566RMOcdiXlNEKcI&callback=initMap"
+          async defer></script>
+      
         </div>
     </div>
 </section>
