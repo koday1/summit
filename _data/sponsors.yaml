@@ -12,3 +12,13 @@
   tier: bronze
   image-url: /assets/images/sponsors/origin.png
   url: https://originprotocol.com
+
+- name: Keep Key
+  tier: gold
+  image-url: /assets/images/sponsors/keep-key.png
+  url: https://www.keepkey.com/
+
+- name: ShapeShift
+  tier: gold
+  image-url: /assets/images/sponsors/shapeshift.png
+  url: https://shapeshift.io/
