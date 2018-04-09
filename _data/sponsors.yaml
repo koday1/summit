@@ -22,3 +22,18 @@
   tier: gold
   image-url: /assets/images/sponsors/shapeshift.png
   url: https://shapeshift.io/
+
+- name: Radar Relay
+  tier: bronze
+  image-url: /assets/images/sponsors/radarrelay.png
+  url: https://radarrelay.com/
+
+- name: Colorado School of Mines
+  tier: bronze
+  image-url: /assets/images/sponsors/mines.png
+  url: https://www.mines.edu/
+
+- name: Global Blockchain Summit
+  tier: bronze
+  image-url: /assets/images/sponsors/globalblockchain.png
+  url: https://globalblockchainsummit.com/
