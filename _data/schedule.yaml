@@ -1,10 +1,10 @@
 - name: Arrival and Check-In
   day:  1
-  time: "8:00 am"
+  time: "9:00 am"
 
 - name: Opening Ceremonies
   day:  1
-  time: "10:00 am"
+  time: "11:00 am"
 
 - name: Hacking Begins!
   day:  1
