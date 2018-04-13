@@ -43,4 +43,18 @@
   image-url: /assets/images/sponsors/consensys.png
   url: https://new.consensys.net/
 
+- name: Rebel AI
+  tier: bronze
+  image-url: /assets/images/sponsors/rebel.png
+  url: https://rebelai.com/
+
+- name: Bee Token
+  tier: bronze
+  image-url: /assets/images/sponsors/bee.png
+  url: https://beetoken.com/
+
+- name: Mining Store
+  tier: bronze
+  image-url: /assets/images/sponsors/miningstore.png
+  url: https://miningstore.com/
 
