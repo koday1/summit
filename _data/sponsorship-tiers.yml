@@ -1,7 +1,7 @@
 - tier: Bronze
   description: 
   price: $500 USD
-  commerce-link: https://commerce.coinbase.com/checkout/738163a1-5d71-4dfc-b890-10f0b525c97f
+  commerce-link: https://commerce.coinbase.com/checkout/fbae50e3-e49b-45be-a4ce-98cf6f896739
   perks:
     - Send 1 representative
     - Distribute swag
@@ -10,7 +10,7 @@
 - tier: Silver
   description: "All of the Bronze tier perks plus"
   price: $1500 USD
-  commerce-link: https://commerce.coinbase.com/checkout/828d6396-5277-476f-acd1-edbaf7071844
+  commerce-link: https://commerce.coinbase.com/checkout/089346e1-6e29-465f-84fe-4898348cd482
   perks:
     - Send 2 representatives
     - Take part in a panel
@@ -20,7 +20,7 @@
 - tier: Gold
   description: "All of the Silver tier perks plus"
   price: $2500 USD
-  commerce-link: https://commerce.coinbase.com/checkout/4a2b8367-0d82-43f8-9212-d4fe70c1ae23
+  commerce-link: https://commerce.coinbase.com/checkout/dbd9d6c8-7ac6-4025-b2f4-088d13977592
   perks:
     - Unlimited representatives
     - Two tables at the event
@@ -30,7 +30,7 @@
 - tier: Platinum
   description: "All of the Gold tier perks plus"
   price: $3500 USD
-  commerce-link:
+  commerce-link: https://commerce.coinbase.com/checkout/7109f288-21fd-489f-9d90-810d0d8fb598
   perks:
     - 5 minutes of remarks at opening and closing ceremonies for remarks
     - Unlimited recruiters and the ability to interview students at the event
