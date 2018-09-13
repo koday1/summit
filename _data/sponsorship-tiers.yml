@@ -1,7 +1,7 @@
 - tier: Bronze
   description: 
   price: $500 USD
-  commerce-link: https://commerce.coinbase.com/checkout/fbae50e3-e49b-45be-a4ce-98cf6f896739
+  commerce-link: "https://commerce.coinbase.com/checkout/fbae50e3-e49b-45be-a4ce-98cf6f896739"
   perks:
     - Send 1 representative
     - Distribute swag
