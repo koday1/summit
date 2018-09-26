@@ -1,60 +1,98 @@
+- name: Solana
+  tier: silver
+  image-url: /assets/images/sponsors/solana.png
+  url: https://solana.com/
+  semester: Fall2018
+  
+- name: MouseBelt
+  tier: silver
+  image-url: /assets/images/sponsors/mousebelt.png
+  url: https://www.mousebelt.com/
+  semester: Fall2018  
+
+- name: ConsenSys
+  tier: silver
+  image-url: /assets/images/sponsors/consensys.png
+  url: https://new.consensys.net/
+  semester: Fall2018
+  
+- name: Global Blockchain Summit
+  tier: silver
+  image-url: /assets/images/sponsors/globalblockchainsummit.png
+  url: https://globalblockchainsummit.com/
+  semester: Fall2018
+  
+
+
 - name: Medchain
   tier: silver
   image-url: /assets/images/sponsors/medchain.png
   url: https://medchain.us
+  semester: Spring2018
 
 - name: Cryptocrush
   tier: silver
   image-url: /assets/images/sponsors/cryptocrush.png
   url: https://crushcrypto.com/
+  semester: Spring2018
 
 - name: Origin Protocol
   tier: bronze
   image-url: /assets/images/sponsors/origin.png
   url: https://originprotocol.com
+  semester: Spring2018
 
 - name: Keep Key
   tier: gold
   image-url: /assets/images/sponsors/keep-key.png
   url: https://www.keepkey.com/
+  semester: Spring2018
 
 - name: ShapeShift
   tier: gold
   image-url: /assets/images/sponsors/shapeshift.png
   url: https://shapeshift.io/
+  semester: Spring2018
 
 - name: Radar Relay
   tier: bronze
   image-url: /assets/images/sponsors/radarrelay.png
   url: https://radarrelay.com/
+  semester: Spring2018
 
 - name: Colorado School of Mines
   tier: bronze
   image-url: /assets/images/sponsors/mines.png
   url: https://www.mines.edu/
+  semester: Spring2018
 
 - name: Global Blockchain Summit
   tier: bronze
   image-url: /assets/images/sponsors/globalblockchain.jpg
   url: https://globalblockchainsummit.com/
+  semester: Spring2018
 
 - name: Consensys
   tier: bronze
   image-url: /assets/images/sponsors/consensys.png
   url: https://new.consensys.net/
+  semester: Spring2018
 
 - name: Rebel AI
   tier: bronze
   image-url: /assets/images/sponsors/rebel.png
   url: https://rebelai.com/
+  semester: Spring2018
 
 - name: Bee Token
   tier: bronze
   image-url: /assets/images/sponsors/bee.png
   url: https://beetoken.com/
+  semester: Spring2018
 
 - name: Mining Store
   tier: bronze
   image-url: /assets/images/sponsors/miningstore.png
   url: https://miningstore.com/
+  semester: Spring2018
 
