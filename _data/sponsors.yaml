@@ -1,11 +1,11 @@
 - name: Solana
-  tier: silver
+  tier: gold
   image-url: /assets/images/sponsors/solana.png
   url: https://solana.com/
   semester: Fall2018
   
 - name: MouseBelt
-  tier: silver
+  tier: platinum
   image-url: /assets/images/sponsors/mousebelt.png
   url: https://www.mousebelt.com/
   semester: Fall2018  
@@ -17,7 +17,7 @@
   semester: Fall2018
   
 - name: Global Blockchain Summit
-  tier: silver
+  tier: bronze
   image-url: /assets/images/sponsors/globalblockchainsummit.png
   url: https://globalblockchainsummit.com/
   semester: Fall2018
