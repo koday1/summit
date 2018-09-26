@@ -1,4 +1,62 @@
 <section id="sponsors">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="section-heading">
+                    <h2>Our Current Sponsors</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% assign fall2018_sponsors = site.data.sponsors | where:"semester","Fall2018" %}
+            {% assign gold = fall2018_sponsors | where:"tier","gold" %}
+            {% if gold[0] %}
+                <h3>Gold Sponsors</h3>
+            {% endif %}
+            <ul class="sponsors gold">
+                {% for sponsor in gold %}
+                <li>
+                    <a href="{{sponsor.url}}" target="_blank">
+                        <img src="{{sponsor.image-url}}" alt="{{sponsor.name}} logo">
+                    </a>
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+        <div class="row">
+            {% assign fall2018_sponsors = site.data.sponsors | where:"semester","Fall2018" %}
+            {% assign silver = fall2018_sponsors | where:"tier","silver" %}
+            {% if silver[0] %}
+                <h3>Silver Sponsors</h3>
+            {% endif %}
+            <ul class="sponsors silver">
+                {% for sponsor in silver%}
+                <li>
+                    <a href="{{sponsor.url}}" target="_blank">
+                        <img src="{{sponsor.image-url}}" alt="{{sponsor.name}} logo">
+                    </a>
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+        <div class="row">
+            {% assign bronze = site.data.sponsors | where:"tier","bronze" %}
+            {% if bronze[0] %}
+                <h3>Bronze Sponsors</h3>
+            {% endif %}
+            <ul class="sponsors bronze">
+                {% for sponsor in bronze | where:"tier","bronze" %}
+                <li>
+                    <a href="{{sponsor.url}}" target="_blank">
+                        <img src="{{sponsor.image-url}}" alt="{{sponsor.name}} logo">
+                    </a>
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
@@ -39,7 +97,8 @@
             </ul>
         </div> -->
         <div class="row">
-            {% assign gold = site.data.sponsors | where:"tier","gold" %}
+            {% assign spring2018_sponsors = site.data.sponsors | where:"semester","Spring2018" %}
+            {% assign gold = spring2018_sponsors | where:"tier","gold" %}
             {% if gold[0] %}
                 <h3>Gold Sponsors</h3>
             {% endif %}
@@ -54,7 +113,8 @@
             </ul>
         </div>
         <div class="row">
-            {% assign silver = site.data.sponsors | where:"tier","silver" %}
+            {% assign spring2018_sponsors = site.data.sponsors | where:"semester","Spring2018" %}
+            {% assign silver = spring2018_sponsors | where:"tier","silver" %}
             {% if silver[0] %}
                 <h3>Silver Sponsors</h3>
             {% endif %}
