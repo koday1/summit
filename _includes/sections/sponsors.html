@@ -42,7 +42,8 @@
             </ul>
         </div>
         <div class="row">
-            {% assign bronze = site.data.sponsors | where:"tier","bronze" %}
+            {% assign fall2018_sponsors = site.data.sponsors | where:"semester","Fall2018" %}
+            {% assign bronze = fall2018_sponsors | where:"tier","bronze" %}
             {% if bronze[0] %}
                 <h3>Bronze Sponsors</h3>
             {% endif %}
@@ -129,7 +130,8 @@
             </ul>
         </div>
         <div class="row">
-            {% assign bronze = site.data.sponsors | where:"tier","bronze" %}
+            {% assign spring2018_sponsors = site.data.sponsors | where:"semester","Spring2018" %}
+            {% assign bronze = spring2018_sponsors | where:"tier","bronze" %}
             {% if bronze[0] %}
                 <h3>Bronze Sponsors</h3>
             {% endif %}
