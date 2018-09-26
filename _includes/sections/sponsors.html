@@ -11,6 +11,22 @@
         </div>
         <div class="row">
             {% assign fall2018_sponsors = site.data.sponsors | where:"semester","Fall2018" %}
+            {% assign platinum = fall2018_sponsors | where:"tier","platinum" %}
+            {% if platinum[0] %}
+                <h3>Platinum Sponsors</h3>
+            {% endif %}
+            <ul class="sponsors platinum">
+                {% for sponsor in platinum %}
+                <li>
+                    <a href="{{sponsor.url}}" target="_blank">
+                        <img src="{{sponsor.image-url}}" alt="{{sponsor.name}} logo">
+                    </a>
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+        <div class="row">
+            {% assign fall2018_sponsors = site.data.sponsors | where:"semester","Fall2018" %}
             {% assign gold = fall2018_sponsors | where:"tier","gold" %}
             {% if gold[0] %}
                 <h3>Gold Sponsors</h3>
