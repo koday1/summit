@@ -1,5 +1,5 @@
 - name: Solana
-  tier: gold
+  tier: silver
   image-url: /assets/images/sponsors/solana.png
   url: https://solana.com/
   semester: Fall2018
@@ -17,10 +17,19 @@
   semester: Fall2018
   
 - name: Global Blockchain Summit
-  tier: bronze
+  tier: silver
   image-url: /assets/images/sponsors/globalblockchain.jpg
   url: https://globalblockchainsummit.com/
   semester: Fall2018
+  
+- name: Cryptocrush
+  tier: bronze
+  image-url: /assets/images/sponsors/cryptocrush.png
+  url: https://crushcrypto.com/
+  semester: Fall2018
+  
+  
+  
   
 
 
