@@ -37,7 +37,3 @@
 - name: Networking/Free Time
   day:  2
   time: "4:30 pm"
-  
-- name: Dinner/Reception (Offsite)
-  day:  2
-  time: "6:00 pm"
