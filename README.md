@@ -1,3 +1,3 @@
-# hackathon2018
+CU Blockchain Summit
 
-Website for the 2018 cu blockchain hackathon. 
+Website for the 2018 CU Blockchain Summit & project competition.

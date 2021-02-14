@@ -1,47 +1,39 @@
-- name: Arrival and Check-In
+- name: Breakfast, Coffee, Networking
   day:  1
   time: "8:00 am"
 
-- name: Opening Ceremonies
+- name: Opening Ceremony
+  day:  1
+  time: "8:45 am"
+
+- name: Blockchain, Sustainability, and Social Impact
+  day:  1
+  time: "9:00 am"
+
+- name: Blockchain in Business
   day:  1
   time: "10:00 am"
 
-- name: Hacking Begins!
+- name: Regulation and Blockchain
   day:  1
-  time: "12:00 pm"
+  time: "11:00 am"
 
-- name: Lunch Served
+- name: Lunch and Networking
   day:  1
-  time: "12:00 pm"
-
-- name: Workshops
-  day:  1
-  time: "12:00 pm - 6:00 pm"
-
-- name: Dinner Served
-  day:  1
-  time: "6:00 pm"
-  
-- name: Desserts
-  day:  1
-  time: "11:00 pm"
-
-- name: Breakfast
-  day:  2
-  time: "7:30 am"
-
-- name: Hacking Ends
-  day:  2
   time: "12:00 pm"
   
-- name: Lunch
+- name: Getting Involved in the Blockchain Ecosystem
   day:  2
-  time: "12:00 pm"
-  
-- name: Project Expo / Judging
-  day:  2
-  time: "12:30 pm"
+  time: "2:00 pm"
 
-- name: Closing Ceremonies
+- name: Keynote
   day:  2
   time: "3:00 pm"
+
+- name: Closing Ceremony
+  day:  2
+  time: "4:00 pm"
+  
+- name: Networking/Free Time
+  day:  2
+  time: "4:30 pm"

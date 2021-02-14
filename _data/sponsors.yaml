@@ -1,89 +1,107 @@
-# - name: Twitter
-#   tier: gold
-#   image-url: /assets/images/sponsors/twitter.png
-#   url: https://twitter.com
+- name: Solana
+  tier: silver
+  image-url: /assets/images/sponsors/solana.png
+  url: https://solana.com/
+  semester: Fall2018
+  
+- name: MouseBelt
+  tier: bronze
+  image-url: /assets/images/sponsors/mousebelt.png
+  url: https://www.mousebelt.com/
+  semester: Fall2018  
 
-# - name: Seagate
-#   tier: bronze
-#   image-url: /assets/images/sponsors/seagate.png
-#   url: https://seagate.com
+- name: ConsenSys
+  tier: silver
+  image-url: /assets/images/sponsors/consensys.png
+  url: https://new.consensys.net/
+  semester: Fall2018
+  
+- name: Global Blockchain Summit
+  tier: silver
+  image-url: /assets/images/sponsors/globalblockchain.jpg
+  url: https://globalblockchainsummit.com/
+  semester: Fall2018
+  
+- name: Cryptocrush
+  tier: bronze
+  image-url: /assets/images/sponsors/cryptocrush.png
+  url: https://crushcrypto.com/
+  semester: Fall2018
+  
+  
+  
+  
 
-# - name: Deloitte
-#   tier: bronze
-#   image-url: /assets/images/sponsors/deloitte.png
-#   url: http://www.deloitte.com/
 
-# - name: Zayo
-#   tier: gold
-#   image-url: /assets/images/sponsors/zayo.png
-#   url: https://www.zayo.com/
+- name: Medchain
+  tier: silver
+  image-url: /assets/images/sponsors/medchain.png
+  url: https://medchain.us
+  semester: Spring2018
 
-# - name: NEO
-#   tier: gold
-#   image-url: /assets/images/sponsors/neo.png
-#   url: https://www.neo.org/
+- name: Cryptocrush
+  tier: silver
+  image-url: /assets/images/sponsors/cryptocrush.png
+  url: https://crushcrypto.com/
+  semester: Spring2018
 
-# - name: ASSG
-#   tier: powered
-#   image-url: /assets/images/partners/assg.png
-#   url: https://www.colorado.edu/studentgroups/assg/
+- name: Origin Protocol
+  tier: bronze
+  image-url: /assets/images/sponsors/origin.png
+  url: https://originprotocol.com
+  semester: Spring2018
 
-# - name: Fotodiox
-#   tier: bronze
-#   image-url: /assets/images/sponsors/fotodiox.png
-#   url: https://fotodioxpro.com/
+- name: Keep Key
+  tier: gold
+  image-url: /assets/images/sponsors/keep-key.png
+  url: https://www.keepkey.com/
+  semester: Spring2018
 
-# - name: GitHub
-#   tier: bronze
-#   image-url: /assets/images/sponsors/github.png
-#   url: https://education.github.com/
+- name: ShapeShift
+  tier: gold
+  image-url: /assets/images/sponsors/shapeshift.png
+  url: https://shapeshift.io/
+  semester: Spring2018
 
-# - name: OppenheimerFunds
-#   tier: silver
-#   image-url: /assets/images/sponsors/oppenheimerfunds.png
-#   url: https://www.oppenheimerfunds.com/
+- name: Radar Relay
+  tier: bronze
+  image-url: /assets/images/sponsors/radarrelay.png
+  url: https://radarrelay.com/
+  semester: Spring2018
 
-# - name: Alteryx
-#   tier: gold
-#   image-url: /assets/images/sponsors/alteryx.png
-#   url: https://www.alteryx.com/
+- name: Colorado School of Mines
+  tier: bronze
+  image-url: /assets/images/sponsors/mines.png
+  url: https://www.mines.edu/
+  semester: Spring2018
 
-# - name: Beacon.io
-#   tier: bronze
-#   image-url: /assets/images/sponsors/beaconio.png
-#   url: https://www.beacon.io/
+- name: Global Blockchain Summit
+  tier: bronze
+  image-url: /assets/images/sponsors/globalblockchain.jpg
+  url: https://globalblockchainsummit.com/
+  semester: Spring2018
 
-# - name: AUVSI
-#   tier: gold
-#   image-url: /assets/images/sponsors/auvsi.png
-#   url: http://www.auvsi.org/
+- name: Consensys
+  tier: bronze
+  image-url: /assets/images/sponsors/consensys.png
+  url: https://new.consensys.net/
+  semester: Spring2018
 
-# - name: MD5
-#   tier: gold
-#   image-url: /assets/images/sponsors/md5.png
-#   url: https://community.md5.net/md5/landing
+- name: Rebel AI
+  tier: bronze
+  image-url: /assets/images/sponsors/rebel.png
+  url: https://rebelai.com/
+  semester: Spring2018
 
-# - name: Dish Networks
-#   tier: silver
-#   image-url: /assets/images/sponsors/dish2.png
-#   url: https://www.dish.com/
+- name: Bee Token
+  tier: bronze
+  image-url: /assets/images/sponsors/bee.png
+  url: https://beetoken.com/
+  semester: Spring2018
 
-# - name: IHS Markit
-#   tier: bronze
-#   image-url: /assets/images/sponsors/ihs.png
-#   url: https://ihsmarkit.com/index.html
+- name: Mining Store
+  tier: bronze
+  image-url: /assets/images/sponsors/miningstore.png
+  url: https://miningstore.com/
+  semester: Spring2018
 
-# - name: HackDFW
-#   tier: bronze
-#   image-url: /assets/images/sponsors/hackdfw.png
-#   url: https://www.hackdfw.com/
-
-# - name: FreeWave Technologies Inc
-#   tier: silver
-#   image-url: /assets/images/sponsors/freewave.png
-#   url: https://www.freewave.com
-
-# - name: Trimble
-#   tier: gold
-#   image-url: /assets/images/sponsors/trimble.png
-#   url: http://www.trimble.com/

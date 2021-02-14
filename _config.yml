@@ -2,12 +2,12 @@ sass:
     sass_dir: assets/_sass
     style: compressed
 
-title: "CU Blockchain Summit"
+title: "Fall 2018 CU Blockchain Summit"
 tagline: "Workshops | Panels | Networking | 24-hour Hackathon"
-about: "The CU Blockchain Summit is the first annual student summit for Colorado students
- interested in blockchain technology. The summit will feature workshops and panels with 
- blockchain experts, networking with blockchain companies, and a 24-hour hackathon competition. 
- It’s all happening April 14th and 15th at the Idea Forge on the CU Boulder campus. 
- Registration is limited so register soon! "
+about: " The Fall 2018 CU Blockchain Summit is the second summit hosted by CU Blockchain
+for Colorado students and professionals interested in blockchain technology. 
+The summit will feature panels with industry experts, networking with blockchain companies, 
+and connections with other innovators on campus. It will take place October 13th at the University Memorial Center 
+on the CU Boulder campus."
 email: blockchain@colorado.edu
 register-url: "https://my.cublockchain.org"
